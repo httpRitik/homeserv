@@ -26,7 +26,10 @@
       "package": "com.homeserv.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "router": {
+        "root": "/"
+      }
     },
     "plugins": [
       "expo-router"
